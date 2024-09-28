@@ -1,0 +1,101 @@
+ .carts-button 
+ {background-color: rgb(255, 217, 0);
+  border: none;
+  border-radius: 15px;
+  width: 115;
+  height: 30px;
+  margin-right: 8px;
+  cursor: pointer;
+  transition:box-shadow 0.15s ;}
+  
+  .carts-button:hover {box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);}
+  
+  .buy-button {background-color:rgb(255, 166, 0) ;
+  border: none;
+  border-radius: 15px;
+  width: 115;
+  height: 30px;}
+   .stock-p {color: rgb(0, 128, 0);}
+  
+  .Nike-p {font-weight: bolder;
+  font-size: larger;
+  font-family:  serif;}
+
+  .Request-button {background-color: black;
+    color: white;
+    height: 40px;
+    border: none;
+    width: 110px;
+    font-weight: 50px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+    }
+
+
+    .o-button{background-color: rgb(15, 206, 15);
+      margin-left: 10px;
+      border: none;
+      color: white;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      padding-right: 10px;
+      padding-left: 10px;}
+
+      .m-button{background-color: rgb(15, 206, 15);
+        margin-left: 5px;
+
+        border: none;
+        color: white;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 10px;
+        padding-left: 10px;
+  
+
+      }
+      .text-question{font-size: 30px;
+        font-family: Arial;
+        font-weight: bold ;
+        padding-left: 10px;
+        margin: 0;
+        margin-bottom: 30px;
+        
+        }
+        .text-instruction{font-family: Arial;
+          padding-left: 88px;
+          margin: 0;
+          line-height: 0px;
+          font-style: italic;
+          margin-bottom: 30px;
+        
+        }
+        .text-more{font-family: Arial;
+          padding-left: 160px;
+          color: rgb(0, 81, 255);
+        
+        
+        }
+        p{font-family: Arial;}
+ 
+        .text-today{width: 150px;
+       line-height: 15px;
+       font-weight: bold;
+       margin: 0;
+       margin-bottom: 8px;}
+        .span-u{color: rgb(64, 9, 116);
+       padding-left: 6px;
+       font-size: 10px;
+       }
+       .span-t{font-size: 10px;
+         color: rgba(0, 128, 0, 0.363);}
+         .text-hour{color: rgb(64, 9, 116);
+           font-size: 15px;
+         margin: 0;}
+       .span-p{color: rgb(172, 15, 15);}
+  
+      
+  
+  
+  
+  
+  

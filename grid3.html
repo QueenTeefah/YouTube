@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Friend request</title>
+
+  <style>
+    p{
+      font-family: Arial;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .GRID-video{display: grid;
+      grid-template-columns: 200px 200px 200px;
+      column-gap: 20px;
+
+    }
+    .Add-button{color: white;
+      background-color: rgb(24, 119, 242);
+      border-radius: 4px;
+      border: none;
+      font-size: 16px;
+      margin-left: 8px;
+      margin-bottom: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+}
+
+    .video-preview{ width: 200px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+     vertical-align: top;
+     margin-right: 15px;
+    }
+    .thumbnail-row{display: grid;
+      grid-template-columns: 35px 1fr;
+      margin-left: 8px;
+      margin-bottom: 10px;
+
+    }
+
+      .channel{ border-radius: 14px;
+        margin-right: 4px;
+        width: 28px;
+        height: 28px;
+      object-fit: cover;
+    vertical-align: middle;}
+      .mutual{color: rgb(100, 100, 100);
+
+      }
+      .images{width: 200px;
+        height: 200px;
+      object-fit: cover;
+    margin-bottom: 12px;}
+
+
+        .Name{font-size: 18px;
+          margin-left: 8px;
+          margin-left: 5px;
+          font-weight: bold;
+
+        }
+
+
+  </style>
+</head>
+<body>
+  <div class="GRID-video">
+
+    <div class="video-preview">
+      <img class="images" src="thumbnail0/images1.jpg">
+      
+        <p class="Name">Oliver</p>
+        <div class="thumbnail-row"> <img class="channel" src="thumbnail0/channel.jpg">
+        <p class="mutual">2 mutual Friends</p>
+        </div>
+          <button class="Add-button">Add Friend</button>
+    </div>
+  
+    
+    <div class="video-preview">
+      <img class="images" src="thumbnail0/images2.jpg">
+      
+        <p class="Name">Oliver</p>
+        <div class="thumbnail-row"> <img class="channel" src="thumbnail0/channel.jpg">
+        <p class="mutual">3 mutual Friends</p>
+        </div>
+          <button class="Add-button">Add Friend</button>
+    </div>
+
+    
+    <div class="video-preview">
+      <img class="images" src="thumbnail0/images3.jpg">
+      
+        <p class="Name">Oliver</p>
+        <div class="thumbnail-row"> <img class="channel" src="thumbnail0/channel.jpg">
+        <p class="mutual">4 mutual Friends</p>
+        </div>
+          <button class="Add-button">Add Friend</button>
+    </div>
+
+  </div>
+
+
+
+</body>
+
+</html>
